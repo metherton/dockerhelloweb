@@ -12,6 +12,6 @@ public class HelloControllerTest {
     @Test
     public void testIndex() {
         HelloController controller = new HelloController();
-        Assert.assertThat(controller.index(), Matchers.is("Greetings from Spring boot"));
+        Assert.assertThat(controller.index(), Matchers.is("Greetings from Martin and Spring boot"));
     }
 }
